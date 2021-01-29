@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Uploads Photos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" type="module"></script>
+  </head>
+
+  <body>
+    <div id="buttonuploadsimages" class="buttonuploadsimages">Click para agregar fotos(máximo 2)</div>
+    <div style='height: 0px;width: 0px; overflow:hidden;'>
+      <input type="file" id="uploads" name="images[]" accept="image/jpg, image/jpeg" multiple>      
+    </div>
+    <div class="buttonclearimages">
+      <button id="clearbutton" class="clearbutton">ELIMINAR FOTOS (0)</button>
+    </div>
+    <div id="photos" class="previewphotos">
+      <!-- to add new images from the upload button -->
+    </div>
+    <div class="buttonclearimages">
+      <button id="savebutton" class="clearbutton">Guardar Fotos</button>
+    </div>
+    <div class="buttonclearimages">
+      <button id="pacientephoto" class="clearbutton">Paciente Foto</button>
+    </div>
+  </body>
+</html>
